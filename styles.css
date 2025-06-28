@@ -6,6 +6,10 @@ body {
   font-family: "Sansation", sans-serif;
 }
 
+/*--------------------\*
+  #HEADER
+\*--------------------*/
+
 .header-nav {
   position: fixed;
   background-color: #000000;
@@ -28,18 +32,18 @@ body {
   margin-right: 1rem;
 }
 
-.m-horizontal {
+.m-izq-horizontal {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0; 
 }
 
-.m-horizontal li {
+.m-izq-horizontal li {
   margin: 0 1.5rem; 
 }
 
-.m-horizontal li a {
+.m-izq-horizontal li a {
   display: block;
   padding: 1.2rem 1.1rem;
   color: #ffffff;
@@ -63,3 +67,6 @@ body {
   font-size: 1.125rem;
 }
 
+/*--------------------\*
+  #HERO
+\*--------------------*/
